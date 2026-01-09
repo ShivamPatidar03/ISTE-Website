@@ -1,0 +1,263 @@
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: calc(100vh - 70px);
+
+  /* ✅ bottom padding added so buttons never touch wave */
+  padding: 0 80px 120px;
+
+  background: linear-gradient(
+    135deg,
+    var(--primary-dark),
+    var(--primary-blue)
+  );
+
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* CONTENT WRAPPER */
+.hero-content {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 80px;
+  position: relative;
+  z-index: 2;
+}
+
+/* TEXT */
+.hero-text {
+  color: var(--text-light);
+}
+
+.hero-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+
+  background: rgba(255, 255, 255, 0.15);
+  margin-bottom: 20px;
+}
+
+.hero-text h1 {
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 18px;
+}
+
+.hero-text h1 span {
+  background: linear-gradient(90deg, #bde8f5, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 520px;
+  color: #e2ecff;
+}
+
+/* BUTTONS */
+.hero-buttons {
+  margin-top: 34px;
+  display: flex;
+  gap: 18px;
+}
+
+.btn {
+  padding: 13px 26px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.35s ease;
+}
+
+.btn.primary {
+  background: linear-gradient(90deg, #4988c4, #bde8f5);
+  color: var(--primary-dark);
+}
+
+.btn.primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(189, 232, 245, 0.7);
+}
+
+.btn.secondary {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: var(--text-light);
+}
+
+.btn.secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* RIGHT SIDE */
+.hero-visual {
+  display: grid;
+  gap: 22px;
+}
+
+.glass-card {
+  padding: 22px;
+  border-radius: var(--radius-md);
+
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+
+  color: var(--text-light);
+  box-shadow: var(--shadow-soft);
+
+  transition: transform 0.4s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-6px);
+}
+
+.glass-card h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+/* WAVE */
+.hero-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+
+  /* ✅ wave stays behind content */
+  z-index: 1;
+}
+
+
+/* THREADS BACKGROUND */
+.hero-threads {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  top: 60px;
+}
+
+/* make canvas fill hero */
+.hero-threads .threads-container,
+.hero-threads canvas {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* RESPONSIVE */
+/* RESPONSIVE IMPROVEMENTS */
+
+/* Tablet */
+@media (max-width: 1000px) {
+  .hero {
+    padding: 0 32px 100px;
+  }
+
+  .hero-content {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 48px;
+    text-align: center;
+  }
+
+  .hero-visual {
+    width: 100%;
+    max-width: 420px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .glass-card {
+    padding: 18px;
+  }
+
+  .hero-text p {
+    margin: auto;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+}
+
+/* Mobile - Wider phones */
+@media (max-width: 600px) {
+  .hero {
+    padding: 0 20px 90px;
+    min-height: auto; /* prevent forced tall hero */
+  }
+
+  .hero-text h1 {
+    font-size: 32px;
+    line-height: 1.25;
+  }
+
+  .hero-badge {
+    font-size: 12px;
+    padding: 4px 12px;
+    margin-bottom: 14px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 420px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-visual {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .glass-card {
+    padding: 16px;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 400px) {
+  .hero-text h1 {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  .hero {
+    padding: 0 14px 80px;
+  }
+
+  .glass-card h3 {
+    font-size: 16px;
+  }
+
+  .glass-card p {
+    font-size: 13px;
+  }
+
+  .hero-buttons {
+    gap: 10px;
+  }
+}
