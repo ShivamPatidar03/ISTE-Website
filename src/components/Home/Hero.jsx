@@ -1,7 +1,8 @@
 import "./Hero.css";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import Threads from "../Threads";
+import { Link } from "react-router-dom";   
+import HeroCircularBg from "../Backgrounds/HeroCircularBg";
 
 const Hero = () => {
   const heroRef = useRef(null);
@@ -33,13 +34,18 @@ const Hero = () => {
         delay: 0.6,
       });
 
-      gsap.from(".glass-card", {
-        opacity: 0,
-        y: 40,
-        stagger: 0.2,
-        duration: 0.8,
-        delay: 0.9,
-      });
+      gsap.fromTo(
+        ".hero-buttons .btn",
+        { opacity: 0, y: 20 },
+        {
+          opacity: 1,
+          y: 0,
+          stagger: 0.12,
+          duration: 0.7,
+          ease: "power3.out",
+          delay: 0.9,
+        }
+      );
     }, heroRef);
 
     return () => ctx.revert();
@@ -54,47 +60,31 @@ const Hero = () => {
 
   return (
     <section className="hero" id="home" ref={heroRef}>
-      <Threads 
-        className="hero-threads"
-        amplitude={1}
-        distance={0}
-        enableMouseInteraction={true}
-      />
+      <HeroCircularBg />
 
-      <div className="hero-content">
+      <div className="hero-content centered">
         <div className="hero-text">
           <span className="hero-badge">Empowering Future Engineers</span>
+
           <h1 ref={titleRef}>
             {splitText("Indian Society for")}
             <br />
             <span>{splitText("Technical Education")}</span>
           </h1>
+
           <p>
             ISTE is a national professional organization fostering technical
             education, innovation, and leadership among students and educators.
           </p>
-          <div className="hero-buttons">
-            <a href="/about" className="btn primary">
-              Explore More
-            </a>
-            <a href="/events" className="btn secondary">
-              Our Events
-            </a>
-          </div>
-        </div>
 
-        <div className="hero-visual">
-          <div className="glass-card">
-            <h3>🚀 Innovation</h3>
-            <p>Hands-on workshops & hackathons</p>
-          </div>
-          <div className="glass-card">
-            <h3>🎓 Learning</h3>
-            <p>Expert talks & mentorship</p>
-          </div>
-          <div className="glass-card">
-            <h3>🤝 Community</h3>
-            <p>Collaboration & networking</p>
+          <div className="hero-buttons">
+            <Link to="/about" className="btn primary">
+              Explore More
+            </Link>
+
+            <Link to="/events" className="btn secondary">
+              Our Events
+            </Link>
           </div>
         </div>
       </div>

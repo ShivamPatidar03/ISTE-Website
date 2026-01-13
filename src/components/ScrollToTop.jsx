@@ -5,11 +5,10 @@ const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    // Always scroll to top on route change
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: "instant", // IMPORTANT: avoids GSAP conflicts
+      behavior: "instant",
     });
   }, [pathname]);
 

@@ -37,7 +37,6 @@
     transition: transform 0.3s ease;
   }
   
-/* BRAND LOGO (IMAGE + TEXT) */
 .nav-logo {
   display: flex;
   align-items: center;
@@ -46,8 +45,8 @@
 }
 
 .nav-logo img {
-  width: 55px;
-  height: 55px;
+  width: 58px;
+  height: 58px;
   object-fit: contain;
   transition: transform 0.3s ease, filter 0.3s ease;
 }

@@ -10,18 +10,18 @@ gsap.registerPlugin(ScrollTrigger);
 
 const mentors = [
   {
-    name: "Dr. Vishal Chaudhary",
-    role: "Faculty Advisor, ISTE MITS",
-    image: mentor1,
-    message:
-      "ISTE provides students with opportunities to explore technology, leadership, and innovation beyond academics. Our focus is to nurture problem-solvers and future leaders."
-  },
-  {
     name: "Dr. Manjree Pandit",
-    role: "Chairperson, ISTE MITS",
+    role: "Pro Vice-Chancellor & Chairperson, ISTE, MITS-DU",
     image: mentor2,
     message:
       "Through ISTE activities, students gain practical exposure, teamwork experience, and industry awareness that prepares them for real-world engineering challenges."
+  },
+  {
+    name: "Dr. Vishal Chaudhary",
+    role: "Proctor & Faculty Advisor, ISTE, MITS-DU",
+    image: mentor1,
+    message:
+      "ISTE provides students with opportunities to explore technology, leadership, and innovation beyond academics. Our focus is to nurture problem-solvers and future leaders."
   }
 ];
 

@@ -8,20 +8,19 @@ const MentorSection = () => {
     <section className="mentors-page-section">
       {/* Light Rays Background */}
       <LightRays
-  raysOrigin="top-center"
-  raysColor="#e5e7eb"       
-  raysSpeed={1}
-  lightSpread={0.7}
-  rayLength={3}
-  pulsating={false}
-  fadeDistance={1.2}
-  saturation={1}
-  followMouse={true}   
-  mouseInfluence={0.1}
-  noiseAmount={0.04}
-  distortion={0.03}
-/>
-
+        raysOrigin="top-center"
+        raysColor="#e5e7eb"       
+        raysSpeed={1}
+        lightSpread={0.7}
+        rayLength={3}
+        pulsating={false}
+        fadeDistance={1.2}
+        saturation={1}
+        followMouse={true}   
+        mouseInfluence={0.1}
+        noiseAmount={0.04}
+        distortion={0.03}
+      />
 
       {/* Content */}
       <div className="mentor-content">

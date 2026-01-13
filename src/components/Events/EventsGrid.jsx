@@ -14,8 +14,8 @@ const events = [
     desc: "A multi-day technical event featuring seminars, competitions, gaming & creative activities."
   },
   {
-    title: "X-Calibre 2k24",
-    date: "26th-28th September 2024",
+    title: "X-Calibre 2025",
+    date: "26th-28th September 2025",
     category: "Mock Placement / Skill Preparation",
     image: Xcalibre,
     desc: "A preparation event with aptitude tests, group discussions & interviews to boost placement readiness."
