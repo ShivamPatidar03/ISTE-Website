@@ -7,6 +7,7 @@ import Xcalibre from "../../assets/Events/Xcalibire-23.jpg";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { NavLink } from "react-router-dom";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -39,7 +40,6 @@ const EventsPreview = () => {
     if (!eventsRef.current) return;
   
     const ctx = gsap.context(() => {
-      // ✅ PRE-SET
       gsap.set(".event-card", { y: 0, autoAlpha: 1 });
   
       gsap.from(".events-header", {
@@ -65,7 +65,7 @@ const EventsPreview = () => {
         stagger: 0.22,
         duration: 0.9,
         ease: "power3.out",
-        clearProps: "transform" // 🔥 FIX
+        clearProps: "transform"
       });
     }, eventsRef);
   
@@ -104,9 +104,9 @@ const EventsPreview = () => {
       </div>
 
       <div className="events-footer">
-        <a href="/events" className="events-btn">
+        <NavLink to="/events" className="events-btn">
           View All Events →
-        </a>
+        </NavLink>
       </div>
     </section>
   );

@@ -50,7 +50,6 @@ const Navbar = () => {
       Join ISTE
       </a>
 
-
       {/* HAMBURGER */}
       <div
         className={`hamburger ${menuOpen ? "active" : ""}`}
