@@ -89,7 +89,15 @@ const Footer = () => {
             <Link to="/gallery">Gallery</Link>
             <Link to="/team">Our Team</Link>
             <Link to="/contact">Contact</Link>
-            <Link to="/contact">Join Us</Link>
+            {/* <Link to="https://linktr.ee/iste_mits_gwl">Join Us</Link> */}
+            <a
+              href="https://linktr.ee/iste_mits_gwl"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            Join Us
+            </a>
+
           </div>
 
           <div className="footer-column">

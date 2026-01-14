@@ -41,9 +41,15 @@ const Navbar = () => {
       </ul>
 
       {/* CTA */}
-      <NavLink to="https://linktr.ee/iste_mits_gwl" className="join-btn desktop-only">
-        Join ISTE
-      </NavLink>
+      <a
+       href="https://linktr.ee/iste_mits_gwl"
+       className="join-btn desktop-only"
+       target="_blank"
+       rel="noopener noreferrer"
+      >
+      Join ISTE
+      </a>
+
 
       {/* HAMBURGER */}
       <div
@@ -65,9 +71,14 @@ const Navbar = () => {
         <NavLink to="/team" onClick={closeMenu}>Our Team</NavLink>
         <NavLink to="/contact" onClick={closeMenu}>Contact</NavLink>
 
-        <NavLink to="/contact" className="mobile-join" onClick={closeMenu}>
-          Join ISTE
-        </NavLink>
+        <a
+          href="https://linktr.ee/iste_mits_gwl"
+          className="mobile-join"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={closeMenu}
+        >Join ISTE</a>
+
       </div>
     </nav>
   );

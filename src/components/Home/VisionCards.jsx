@@ -46,9 +46,13 @@ const VisionCards = () => {
 
         {/* CTA */}
         <div className="vision-cta">
-          <a href="https://linktr.ee/iste_mits_gwl" className="btn primary">
-            Become a Member
-          </a>
+          <a
+            href="https://linktr.ee/iste_mits_gwl"
+            className="btn primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Become a Member</a>
+
         </div>
 
       </div>
