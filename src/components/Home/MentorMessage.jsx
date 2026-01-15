@@ -1,5 +1,5 @@
 import "./MentorMessage.css";
-import mentor1 from "../../assets/mentors/vishal-Chaudhary.jpg";
+import mentor1 from "../../assets/mentors/vishal-chaudhary.jpg";
 import mentor2 from "../../assets/mentors/manjree-pandit.jpg";
 
 import { useEffect, useRef } from "react";
