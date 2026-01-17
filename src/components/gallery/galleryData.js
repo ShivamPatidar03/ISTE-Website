@@ -1,30 +1,30 @@
-import Iste from "../../assets/gallery/ISTE.jpg";
-import Xcalibire1 from "../../assets/gallery/Xcalibire-23.jpg";
-import Xcalibire2 from "../../assets/gallery/Xcalibire-23.1.jpg";
-import Xcalibire3 from "../../assets/gallery/Xcalibire-24.jpg";
-import Xcalibire4 from "../../assets/gallery/X-caliber-24-interview.jpg";
+import Iste from "../../assets/gallery/iste.jpg";
+import Xcalibire1 from "../../assets/gallery/xcalibire-23.jpg";
+import Xcalibire2 from "../../assets/gallery/xcalibire-23.1.jpg";
+import Xcalibire3 from "../../assets/gallery/xcalibire-24.jpg";
+import Xcalibire4 from "../../assets/gallery/x-caliber-24-interview.jpg";
 
-import Xcalibre25 from "../../assets/gallery/X-calibre-2025.jpg"
-import Xcalibre251 from "../../assets/gallery/X-calibre-2025-1.jpg"
+import Xcalibre25 from "../../assets/gallery/x-calibre-2025.jpg"
+import Xcalibre251 from "../../assets/gallery/x-calibre-2025-1.jpg"
 
-import TeamISTE from "../../assets/gallery/Team-ISTE.jpg";
-import SSCworkshop from "../../assets/gallery/SSC-workshop-Enigma.jpg";
-import SelfDefenceWorkshop from "../../assets/gallery/MPOWR-self-Defence-Workshop.jpg";
-import BoolCarnival from "../../assets/gallery/Book-Carnival-3.0.jpg";
-import JaskaranSingh from "../../assets/gallery/CP-Jaskaran-Singh.jpg";
-import BestSociety from "../../assets/gallery/Best-Society-Award.jpg";
+import TeamISTE from "../../assets/gallery/team-iste.jpg";
+import SSCworkshop from "../../assets/gallery/ssc-workshop-enigma.jpg";
+import SelfDefenceWorkshop from "../../assets/gallery/mpowr-self-defence-workshop.jpg";
+import BoolCarnival from "../../assets/gallery/book-carnival-3.0.jpg";
+import JaskaranSingh from "../../assets/gallery/cp-jaskaran-singh.jpg";
+import BestSociety from "../../assets/gallery/best-society-award.jpg";
 
-import Esummit from "../../assets/gallery/E-Summit-2024.jpg";
-import EsummitGuest from "../../assets/gallery/E-Summit-Guest.jpg";
-import EsummitIdeafyWinner from "../../assets/gallery/E-summit-Ideafy-winner.jpg";
-import EsummitIcon from "../../assets/gallery/E-summit-Icon.jpg";
+import Esummit from "../../assets/gallery/e-summit-2024.jpg";
+import EsummitGuest from "../../assets/gallery/e-summit-guest.jpg";
+import EsummitIdeafyWinner from "../../assets/gallery/e-summit-ideafy-winner.jpg";
+import EsummitIcon from "../../assets/gallery/e-summit-icon.jpg";
 
-import BusinessDevelopmentExecutive from "../../assets/gallery/Business-Development-Executive.jpg"
-import ChimeraX2019 from "../../assets/gallery/CHIMERA-X-2019.jpg"
+import BusinessDevelopmentExecutive from "../../assets/gallery/business-development-executive.jpg"
+import ChimeraX2019 from "../../assets/gallery/chimera-x-2019.jpg"
 
-import ISTETeam from "../../assets/gallery/ISTE-team.jpg"
-import Xcalibre2k24 from "../../assets/gallery/Xcalibre2k24.jpg"
-import XcalibreImg from "../../assets/gallery/XcalibreImg.jpg"
+import ISTETeam from "../../assets/gallery/iste-team.jpg"
+import Xcalibre2k24 from "../../assets/gallery/xcalibre2k24.jpg"
+import XcalibreImg from "../../assets/gallery/xcalibreimg.jpg"
 
  
 

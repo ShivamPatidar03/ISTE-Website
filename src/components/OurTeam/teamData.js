@@ -4,15 +4,15 @@ import Vidushi from "../../assets/team/vidushi-tiwari.jpg";
 import Anushka from "../../assets/team/anushka-thapa.jpg";
 import Mansa from "../../assets/team/mansa-gupta.jpg";
 import Ishita from "../../assets/team/ishita-sharma.jpg";
-import Anurag from "../../assets/team/Anurag-Mishra.jpg";
-import Aman from "../../assets/team/Aman-Bhadoriya.jpg"
-import AbhaySingh from "../../assets/team/Abhay-Singh-Chauhan.jpg"
-import Tanmay from "../../assets/team/Tanmay-Sawankar.jpg"
-import Shreyank from "../../assets/team/Shreyank-Choudhary.jpg"
-import Kalindi from "../../assets/team/Kalindi-Mishra.jpg"
-import Eshita from "../../assets/team/Eshita-Bhawsar.jpg"
-import Jatin from "../../assets/team/Jatin-Guru.jpg"
-import Akshat from "../../assets/team/Akshat-Jain.jpg"
+import Anurag from "../../assets/team/anurag-mishra.jpg";
+import Aman from "../../assets/team/aman-bhadoriya.jpg"
+import AbhaySingh from "../../assets/team/abhay-singh-chauhan.jpg"
+import Tanmay from "../../assets/team/tanmay-sawankar.jpg"
+import Shreyank from "../../assets/team/shreyank-choudhary.jpg"
+import Kalindi from "../../assets/team/kalindi-mishra.jpg"
+import Eshita from "../../assets/team/eshita-bhawsar.jpg"
+import Jatin from "../../assets/team/jatin-guru.jpg"
+import Akshat from "../../assets/team/akshat-jain.jpg"
 
 export const committees = [
   {

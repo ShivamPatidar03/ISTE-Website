@@ -1,8 +1,8 @@
 import "./EventsPreview.css";
 
-import Esummit from "../../assets/Events/E-Summit-ISTE.jpg";
-import Enigma from "../../assets/Events/Enigma-2025.jpg";
-import Xcalibre from "../../assets/Events/Xcalibire-23.jpg";
+import Esummit from "../../assets/Events/e-summit-iste.jpg";
+import Enigma from "../../assets/Events/enigma-2025.jpg";
+import Xcalibre from "../../assets/Events/xcalibire-23.jpg";
 
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
