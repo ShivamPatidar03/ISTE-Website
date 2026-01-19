@@ -1,12 +1,12 @@
-import img1 from "./ISTE.jpg";
-import img2 from "./Team-ISTE.jpg";
-import img3 from "./X-calibre-2025.jpg";
-import img4 from "./Enigma-group-photo.jpg";
-import img5 from "./E-Summit-2024.jpg";
-import img6 from "./E-Summit-icon.jpg";
+import img1 from "./iste.jpg";
+import img2 from "./team-iste.jpg";
+import img3 from "./x-calibre-2025.jpg";
+import img4 from "./enigma-group-photo.jpg";
+import img5 from "./e-summit-2024.jpg";
+import img6 from "./e-summit-icon.jpg";
 import img7 from "./logo.jpg";
-import img8 from "./SSC-workshop-Enigma.jpg";
-import img9 from "./ISTE-team.jpg";
+import img8 from "./ssc-workshop-enigma.jpg";
+import img9 from "./iste-team.jpg";
 import img10 from "./sarsawti-poja.jpg";
 
 

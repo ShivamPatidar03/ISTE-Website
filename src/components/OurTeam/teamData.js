@@ -4,7 +4,6 @@ import Vidushi from "../../assets/team/vidushi-tiwari.jpg";
 import Anushka from "../../assets/team/anushka-thapa.jpg";
 import Mansa from "../../assets/team/mansa-gupta.jpg";
 import Ishita from "../../assets/team/ishita-sharma.jpg";
-import Anurag from "../../assets/team/anurag-mishra.jpg";
 import Aman from "../../assets/team/aman-bhadoriya.jpg";
 import AbhaySingh from "../../assets/team/abhay-singh-chauhan.jpg";
 import Tanmay from "../../assets/team/tanmay-sawankar.jpg";
@@ -13,6 +12,8 @@ import Kalindi from "../../assets/team/kalindi-mishra.jpg";
 import Eshita from "../../assets/team/eshita-bhawsar.jpg";
 import Jatin from "../../assets/team/jatin-guru.jpg";
 import Akshat from "../../assets/team/akshat-jain.jpg";
+import Anurag from "../../assets/team/anurag-mishra.jpg";
+
 
 export const committees = [
   {
